@@ -1,8 +1,8 @@
-const fs  = require('fs');
-const path  = require('path');
+const fs = require('fs');
+const path = require('path');
 const gitLabel = require('git-label');
 
-let labels = [];
+let globalLabels = [];
 
 function readFiles(dirname) {
   return new Promise((resolve, reject) => {
@@ -17,8 +17,7 @@ function readFiles(dirname) {
       });
 
       return resolve(result);
-    }
-    catch (error) {
+    } catch (error) {
       return reject(error);
     }
   });
@@ -38,13 +37,13 @@ const gitLabels = (repo, token) => {
 
     readFiles(path.join(__dirname, '..', 'labels/'))
       .then(results => {
-        results.map(d => {
+        results.forEach(d => {
           d.contents.forEach(l => {
-            labels.push(l);
+            globalLabels.push(l);
           });
         });
 
-        return labels;
+        return globalLabels;
       })
       .then(labels => {
         const config = {
@@ -54,7 +53,7 @@ const gitLabels = (repo, token) => {
         };
 
         try {
-          gitLabel.remove(config, labels)
+          return gitLabel.remove(config, labels)
             .then(removeResponse => {
               response.push(removeResponse);
 
@@ -63,10 +62,9 @@ const gitLabels = (repo, token) => {
                   response.push(addResponse);
 
                   return resolve(response);
-                })
+                });
             });
-        }
-        catch (error) {
+        } catch (error) {
           return reject(error);
         }
       })

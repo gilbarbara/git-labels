@@ -1,0 +1,26 @@
+[
+  {
+    "name": "done",
+    "color": "#009688"
+  },
+  {
+    "name": "deployed",
+    "color": "#00C0AF"
+  },
+  {
+    "name": "under review",
+    "color": "#00EBD5"
+  },
+  {
+    "name": "testing",
+    "color": "#16FFE9"
+  },
+  {
+    "name": "in progress",
+    "color": "#41FFED"
+  },
+  {
+    "name": "accepted",
+    "color": "#81FFF3"
+  }
+]

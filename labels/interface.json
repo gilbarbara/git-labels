@@ -1,0 +1,22 @@
+[
+  {
+    "name": "UX",
+    "color": "#3B15B6"
+  },
+  {
+    "name": "UI",
+    "color": "#4719DC"
+  },
+  {
+    "name": "a11y",
+    "color": "#6238E8"
+  },
+  {
+    "name": "i18n",
+    "color": "#805EEC"
+  },
+  {
+    "name": "copy",
+    "color": "#9E84F1"
+  }
+]

@@ -1,14 +1,14 @@
 [
   {
-    "name": "bv: $$$",
-    "color": "509e65"
+    "name": "$$$",
+    "color": "#00C84F"
   },
   {
-    "name": "bv: $$",
-    "color": "51b671"
+    "name": "$$",
+    "color": "#00f360"
   },
   {
-    "name": "bv: $",
-    "color": "54C779"
+    "name": "$",
+    "color": "#1eff77"
   }
 ]

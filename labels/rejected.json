@@ -1,0 +1,14 @@
+[
+  {
+    "name": "invalid",
+    "color": "#795548"
+  },
+  {
+    "name": "wontfix",
+    "color": "#946858"
+  },
+  {
+    "name": "duplicate",
+    "color": "#A87D6E"
+  }
+]

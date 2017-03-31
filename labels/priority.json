@@ -1,18 +1,18 @@
 [
   {
-    "name": "priority: critical",
-    "color": "9e1f14"
+    "name": "critical",
+    "color": "#000000"
   },
   {
-    "name": "priority: high",
-    "color": "da4732"
+    "name": "high",
+    "color": "#555555"
   },
   {
-    "name": "priority: medium",
-    "color": "ef7146"
+    "name": "medium",
+    "color": "#999999"
   },
   {
-    "name": "priority: low",
-    "color": "f6b652"
+    "name": "on hold",
+    "color": "#CCCCCC"
   }
 ]

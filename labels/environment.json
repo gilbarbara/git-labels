@@ -1,18 +1,14 @@
 [
   {
-    "name": "env: production",
-    "color": "31719b"
+    "name": "production",
+    "color": "#31719B"
   },
   {
-    "name": "env: beta/next",
-    "color": "5d8ab0"
+    "name": "next",
+    "color": "#3B89BB"
   },
   {
-    "name": "env: dev",
-    "color": "6ea0c3"
-  },
-  {
-    "name": "env: test",
-    "color": "8ac5da"
+    "name": "development",
+    "color": "#579CCA"
   }
 ]

@@ -1,22 +1,10 @@
 [
   {
-    "name": "misc: ux",
-    "color": "33226c"
+    "name": "idea",
+    "color": "#CDDC39"
   },
   {
-    "name": "misc: design",
-    "color": "382678"
-  },
-  {
-    "name": "misc: copy",
-    "color": "5d487d"
-  },
-  {
-    "name": "misc: legal",
-    "color": "706487"
-  },
-  {
-    "name": "misc: chore",
-    "color": "767a91"
+    "name": "chore",
+    "color": "#D6E25D"
   }
 ]

@@ -1,18 +1,14 @@
 [
   {
-    "name": "prob: bug",
-    "color": "a93029"
+    "name": "bug",
+    "color": "#FF0D00"
   },
   {
-    "name": "prob: security",
-    "color": "bc362f"
+    "name": "security",
+    "color": "#FF352A"
   },
   {
-    "name": "prob: performance",
-    "color": "ec453c"
-  },
-  {
-    "name": "prob: seo",
-    "color": "ed635e"
+    "name": "performance",
+    "color": "#FF5E55"
   }
 ]

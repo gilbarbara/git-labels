@@ -1,14 +1,14 @@
 [
   {
     "name": "epic",
-    "color": "#e91e63"
+    "color": "#E91E63"
   },
   {
     "name": "feature",
-    "color": "#ed457e"
+    "color": "#ED457E"
   },
   {
     "name": "enhancement",
-    "color": "#f16b99"
+    "color": "#F16B99"
   }
 ]

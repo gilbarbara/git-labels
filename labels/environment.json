@@ -1,14 +1,14 @@
 [
   {
-    "name": "production",
+    "name": "env: production",
     "color": "#31719B"
   },
   {
-    "name": "next",
+    "name": "env: next",
     "color": "#3B89BB"
   },
   {
-    "name": "development",
+    "name": "env: development",
     "color": "#579CCA"
   }
 ]

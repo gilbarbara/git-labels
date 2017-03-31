@@ -1,0 +1,18 @@
+[
+  {
+    "name": "code: review",
+    "color": "#88009F"
+  },
+  {
+    "name": "code: integration",
+    "color": "#AC00C8"
+  },
+  {
+    "name": "code: deployment",
+    "color": "#D100F3"
+  },
+  {
+    "name": "code: testing",
+    "color": "#DF1DFC"
+  }
+]

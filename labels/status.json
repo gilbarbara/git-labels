@@ -1,26 +1,26 @@
 [
   {
-    "name": "done",
+    "name": "status: done",
     "color": "#009688"
   },
   {
-    "name": "deployed",
+    "name": "status: deployed",
     "color": "#00C0AF"
   },
   {
-    "name": "under review",
+    "name": "status: under review",
     "color": "#00EBD5"
   },
   {
-    "name": "testing",
+    "name": "status: testing",
     "color": "#16FFE9"
   },
   {
-    "name": "in progress",
+    "name": "status: in progress",
     "color": "#41FFED"
   },
   {
-    "name": "accepted",
+    "name": "status: accepted",
     "color": "#81FFF3"
   }
 ]

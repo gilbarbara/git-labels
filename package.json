@@ -1,0 +1,27 @@
+{
+  "name": "git-labels",
+  "version": "1.0.0",
+  "description": "Automating the label creation process using [github-label](https://github.com/codenameyau/github-label).",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gilbarbara/git-labels.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gilbarbara/git-labels/issues"
+  },
+  "homepage": "https://github.com/gilbarbara/git-labels#readme",
+  "dependencies": {
+    "git-label": "^4.1.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-preset-env": "^1.3.2"
+  }
+}
